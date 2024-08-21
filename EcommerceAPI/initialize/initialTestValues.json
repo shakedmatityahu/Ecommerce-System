@@ -1,0 +1,95 @@
+﻿{
+    "Scenarios": [
+        {
+            "Identifier": "2",
+            "Username": "u2",
+            "Password": "password",
+            "Email": "testUser@example.com",
+            "Age": 25,
+            "Scenario": "Register"
+        },
+        {
+            "Identifier": "3",
+            "Username": "u3",
+            "Password": "password", 
+            "Email": "testUser@example.com",
+            "Age": 25,
+            "Scenario": "Register"
+        },
+        {
+            "Identifier": "4",
+            "Username": "u4",
+            "Password": "password",
+            "Email": "testUser@example.com",
+            "Age": 25,
+            "Scenario": "Register"
+        },
+        {
+            "Identifier": "5",
+            "Username": "u5",
+            "Password": "password",
+            "Email": "testUser@example.com",
+            "Age": 25,
+            "Scenario": "Register"
+        },
+        {
+            "Identifier": "6",
+            "Username": "u6",
+            "Password": "password",
+            "Email": "testUser@example.com",
+            "Age": 25,
+            "Scenario": "Register"
+        },
+        {
+            "Identifier": "2",
+            "Username": "u2",
+            "Password": "passsssssword",
+            "Scenario": "Login"
+        },
+        {
+            "Username": "u2",
+            "Identifier": "2",
+            "Name": "s1",
+            "Email": "s1",
+            "PhoneNum": "s1",
+            "Scenario": "CreateStore"
+        },
+      {
+        "Username": "u2",
+        "Identifier": "2",
+        "StoreId": "1",
+        "ProductName": "Bamba",
+        "Description": "the best Israeli snack ever",
+        "Price": 30.0,
+        "Quantity": 20,
+        "Scenario": "AddProduct",
+        "Category": "Snack",
+        "SellMethod": "RegularSell"
+      },
+      {
+        "Username": "u2",
+        "Identifier": "2",
+        "StoreId": "1",
+        "ProductName": "Bamba",
+        "ProductId": "11",
+        "Description": "the best Israeli snack ever",
+        "Price": 10.0,
+        "Quantity": 10,
+        "Scenario": "UpdateProduct",
+        "Category": "Snack",
+        "SellMethod": "RegularSell"
+      },
+      {
+        "Username": "u2",
+        "Identifier": "2",
+        "StoreId": "1",
+        "Subject" : "s1",
+        "Scenario": "CreateStoreRule"       
+      },      
+        {
+            "Username": "u2",
+            "Identifier": "2",
+            "Scenario": "Logout"
+        }
+    ]
+}

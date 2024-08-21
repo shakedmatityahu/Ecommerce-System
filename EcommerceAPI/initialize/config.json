@@ -1,0 +1,12 @@
+﻿{
+  "AdminUsername": "u1",
+  "AdminPassword": "password",
+  "AdminEmail": "sysadmin@email.com",
+  "AdminAge": "30",
+  "InitialState": "initialState.json",
+  "Port": 4562,
+  "ExternalServices": false,
+  "Local": true,
+  "Initialize": "File",
+  "Test": false
+}

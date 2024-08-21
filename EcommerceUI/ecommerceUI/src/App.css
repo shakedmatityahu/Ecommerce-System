@@ -1,0 +1,79 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+body {
+  padding-top: 6vh;
+  display:block !important;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.small-padding {
+  padding-top: 2vh;
+}
+
+
+.full-height-row {
+  height: 94vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.full-height {
+  height: 92vh;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+
+
+.half-width{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.profile-left {
+  background-color: #F2F2F2;
+  padding-top: 5vh;
+}
+
+.profile-right {
+  background-color: #EBEBEB;
+  padding-top: 5vh;
+}
+
+.login-form {
+  padding-top: 5vh;
+  width: 20vw; /* or any other width */
+  margin: 0 auto;
+}
+
+.store-details {
+  text-align: center;
+}
+
+.store-details-table {
+  margin: 0 auto;
+  font-size: larger;
+  text-align: left;
+  width: 25vw
+}
+
+ .vertical-center {
+  margin: 0 auto;
+}
+
+.errorLabel {
+  color: rgb(231, 83, 83);
+  font-size: 12px;
+}
